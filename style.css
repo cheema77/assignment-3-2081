@@ -1,0 +1,79 @@
+
+img {
+    margin-left: 45%;
+}
+
+img {
+    display: inline block;
+    background-color: white;
+    transform-origin: 51% 49%;
+}
+
+img {
+    display: inline-block;
+    background: white;
+    transform: translateX(51px);
+    transform: translateY(23px); 
+    transform: translate(-22px, 50px);
+}
+img {
+    margin-top: 100px;
+    display: inline-block;
+    transform: scaleX(1);
+    transform: scaleY(1.5);
+    transform: scale(1,1.5);
+}
+
+img {
+    display: inline-block;
+    background: white;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    transition-property:background-color, width, height;
+    transition-duration:2.0s;
+    transition-delay: 1.5s;
+}
+
+ img:hover {
+            display: inline-block;
+            background: rgba(250, 232, 134, 0.69);
+            transition-property: background-color;
+            transition-duration: 4.5s;
+            background-color:  rgba(250, 232, 134, 0.69);
+        }
+
+img {
+    display: inline-block;
+     animation-name: slideIn;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-delay: 0.5s;
+            animation-direction: alternate;
+    
+}
+
+    @keyframes  slideIn {
+         from {
+            margin-top: 33%;
+        }
+        37% {
+               margin-top: 32%;
+            transform: skewX(-31deg);
+            transform: skewY(-43deg);
+            transform: skew(-32deg, -47deg);
+            }
+            17% {
+                margin-top: 0%;
+                transform: scaleX(3);
+            transform: scaleY(3.5);
+            transform: scale(2,0.5);
+                
+            }
+        to {
+            margin-bottom: 0%;
+        }
+}
